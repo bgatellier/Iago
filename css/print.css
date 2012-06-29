@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+a{
+	text-decoration: none;
+}
+a[href^=http://]{
+	text-decoration: underline;
+}
+body{
+	font: .6em/1.5 Helvetica, Verdana, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	display: none;
+}
+html{
+	height: 100%;
+}
+
+
+
+#navigation,
+#sidebar,
+#search,
+.actions{
+	display: none;
+}
+
+
+#results{
+	border: solid 1px #000;
+	border-collapse: collapse;
+	width: 100%;
+}
+#results td,
+#results th{
+	text-align: center;
+}
+#results tr{
+	border: solid 1px #000;
+}
+#results tr td:last-child{
+	display: none;
+}

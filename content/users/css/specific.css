@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+#details{
+	float: left;
+	margin-right: 1em;
+}
+#logins{
+	float: left;
+}
+#options{
+	clear: left;
+	margin: 0 0 .5em;
+}
